@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Cup_cake_mobile"

@@ -1,0 +1,175 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Cup_cake_mobile</string>
+    <string name="home">Home</string>
+    <string name="username">User Name</string>
+    <string name="password_system">Password</string>
+    <string name="login_one">Login</string>
+    <string name="registration">Registration</string>
+    <string name="profilemanagement">Profile Management</string>
+    <string name="add">Add</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="data_of_birth">Date Of Birth</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="gender">Gender</string>
+    <string name="user_name">User Name</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="login_ho">Login</string>
+    <string name="register">Register</string>
+    <string name="pass_word">PassWord</string>
+    <string name="login_Home">Login</string>
+    <string name="login_system">Login</string>
+    <string name="register_system">Register</string>
+    <string name="login">Login</string>
+    <string name="login_home">LOGIN</string>
+    <string name="title">LOLA CUP CAKE ONLINE SHOP</string>
+    <string name="user_details">All Users Details</string>
+    <string name="userInfo">UNSER NAME</string>
+    <string name="users">USER\'S NAME</string>
+    <string name="viewdata">View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="admin_login">ADMIN</string>
+    <string name="user_login">USER</string>
+    <string name="system_login_selection">SYSTEM LOGIN SELECTION</string>
+    <string name="hotline">HOT LINE +94711327519,+94112345566</string>
+    <string name="products_details">PRODUCTS DETAILS</string>
+    <string name="productname">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_des">Product Description</string>
+    <string name="update_product">UPDATE PRODUCT</string>
+    <string name="product_id">Product ID</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_decs">Description</string>
+    <string name="view">View</string>
+    <string name="select_img">SELECT IMAGE</string>
+    <string name="product">Product</string>
+    <string name="productTitle">PRODUCTS</string>
+    <string name="p_category">Product Category</string>
+    <string name="todo">TODO</string>
+    <string name="actions">Example: Please, Check my Order</string>
+    <string name="company">Company Reaction</string>
+    <string name="titlett"><![CDATA[<- OUR CATEGORIES ->]]></string>
+    <string name="categories">Categories</string>
+    <string name="getItem">Get item</string>
+    <string name="all_categories">ALL CATEGORIES</string>
+    <string name="birthday">brd</string>
+    <string name="back">BACK</string>
+    <string name="admin">ADMIN</string>
+    <string name="amn">ADMIN\'S</string>
+    <string name="productH">PRODUCTS DETAILS HANDLING</string>
+    <string name="userH">USER DETAILS HANDLING</string>
+    <string name="ordersH">ORDERS DETAILS HANDLING</string>
+    <string name="delevryH">DELIVERY DETAILS HANDLING</string>
+    <string name="birthdy">BIRTHDAY</string>
+    <string name="anniversary">ANNIVERSARY</string>
+    <string name="newbaby">NEW BABY</string>
+    <string name="valentine">VALENTINE</string>
+    <string name="graduation">GRADUATION</string>
+    <string name="partyTime">PARTY TIME</string>
+    <string name="special">SPECIAL</string>
+    <string name="chocalate">CHOCOLATE</string>
+    <string name="vanilla">VANILLA</string>
+    <string name="choc_mix">CHOCOLATE MIX VANILLA</string>
+    <string name="redvelvet">RED VELVET</string>
+    <string name="carrot_cake">CARROT CAKE</string>
+    <string name="peanut">PEANUT BUTTER</string>
+    <string name="lemon">LEMON</string>
+    <string name="coffee">COFFEE</string>
+    <string name="wedding">WEDDING</string>
+    <string name="weekly_popular">WEEKLY POPULAR PRODUCTS</string>
+    <string name="viewall">VIEW ALL</string>
+    <string name="specialOffers">SPECIAL OFFERS FOR LOLA\'S</string>
+    <string name="popular">POPULAR PRODUCTS</string>
+    <string name="insert">INSERT</string>
+    <string name="viewA">VIEW</string>
+    <string name="updateA">UPDATE</string>
+    <string name="deleteA">DELETE</string>
+    <string name="searchA">SEARCH</string>
+    <string name="min">-</string>
+    <string name="plus">+</string>
+    <string name="qty">0</string>
+    <string name="adds">ADVERTISEMENT</string>
+    <string name="main_page_selected">%s is selected page</string>
+    <string name="placeorder">PLACE ORDER</string>
+    <string name="orders">ORDERS</string>
+    <string name="items_here">ITEMS HERE</string>
+    <string name="price_here">PRICE HERE</string>
+    <string name="addtocart">ADD TO CART</string>
+    <string name="checkOut">CHECK OUT</string>
+    <string name="to">To</string>
+    <string name="message">Message</string>
+    <string name="send">SEND</string>
+    <string name="subject">Subject</string>
+    <string name="mynb">0711327510</string>
+    <string name="call">CALL</string>
+    <string name="all_cupcakes">ALL CUPCAKES</string>
+    <string name="update">UPDATE PRODUCT</string>
+    <string name="deletep">DELETE PRODUCT</string>
+    <string name="searchp">SEARCH PRODUCT</string>
+    <string name="updatenew">UPDATE</string>
+    <string name="deletenew">DELETE</string>
+    <string name="serachnew">SEARCH</string>
+    <string name="clear">CLEAR</string>
+    <string name="payments">PAYMENTS FORM</string>
+    <string name="orderid">ORDER ID</string>
+    <string name="productName">PRODUCT NAME</string>
+    <string name="yourname">YOUR FULL NAME</string>
+    <string name="orderPname">PRODUCT NAME</string>
+    <string name="oraddress">YOUR ADDRESS</string>
+    <string name="postalcode">POSTALCODE</string>
+    <string name="district">DISTRICT</string>
+    <string name="total">TOTAL</string>
+    <string name="hotlineoR">HOTLINE</string>
+    <string name="receiveddate">RECEIVE DATE AND TIME</string>
+    <string name="createOrder">CREATE ORDER</string>
+    <string name="remove">REMOVE</string>
+    <string name="pay">PAY NOW</string>
+    <string name="ppal">PAY WITH PAYPAL</string>
+    <string name="todo">TODO</string>
+    <string name="paypal">PAY NOW</string>
+    <string name="specialSS">SPECIAL PRODUCTS</string>
+    <string name="delevryId">ID NO</string>
+    <string name="dlvryName">FULL NAME</string>
+    <string name="dlvryAddress">ADDRESS</string>
+    <string name="dlvryDob">DOB</string>
+    <string name="dlvryEmail">EMAIL</string>
+    <string name="nowWorks" />
+    <string name="workNow">UBERS.....ETC.</string>
+    <string name="mobile">MobileNo</string>
+    <string name="dlvryTitle">DELEVRY DETAILS HANDLING</string>
+    <string name="adverid">ADVERTISEMENT ID</string>
+    <string name="textCeo">MR.Supun Sulakshana</string>
+    <string name="aboutand">ABOUT AND HELP</string>
+    <string name="companydec">A clean layout and simple design appeals more to users. This “about us” page is dominated by grey tones, it clearly shows us the company\'s brand story, value, and real data support. Furthermore, the blue CTA stands out as you scroll down the page.</string>
+    <string name="cll">CALL NOW</string>
+    <string name="emil">supunsulaks20@gmail.com</string>
+    <string name="sendE">SEND EMAIL</string>
+    <string-array name="categories">
+        <item>Birthday</item>
+        <item>Anniversary</item>
+        <item>NewBaby</item>
+        <item>ValentineDay</item>
+        <item>Graduation</item>
+        <item>Party Time</item>
+        <item>Special</item>
+        <item>Chocolate</item>
+        <item>Vanilla</item>
+        <item>Chocolate Mixed Vanilla</item>
+        <item>Red Velvet</item>
+        <item>Carrot Cake</item>
+        <item>Peanut Butter</item>
+        <item>Lemon</item>
+        <item>Coffee</item>
+        <item>Wedding</item>
+    </string-array>
+
+    <string-array name="actions">
+        <item>Please,Check My Order</item>
+    </string-array>
+</resources>

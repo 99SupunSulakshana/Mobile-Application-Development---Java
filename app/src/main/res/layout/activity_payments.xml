@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.LolaCupCakeApplication.Payments">
+
+    <ScrollView
+        android:id="@+id/homeScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ProductsAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/devlry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/payments"
+                android:textAlignment="center"
+                android:textColor="#E31069"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/AdverticeID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/orderid"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/devryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/yourname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/dlvryaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/orderPname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/dlvryDOB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/oraddress"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/dlvryEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/postalcode"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/NowWork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/district"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/nbNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/total"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/hotline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/hotlineoR"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/receivedDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/receiveddate"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btnAddOR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/createOrder" />
+
+            <Button
+                android:id="@+id/btnEditOR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/edit" />
+
+            <Button
+                android:id="@+id/paypal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/remove" />
+
+            <Button
+                android:id="@+id/btnPayOR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/pay" />
+
+        </LinearLayout>
+    </ScrollView>
+
+        </LinearLayout>

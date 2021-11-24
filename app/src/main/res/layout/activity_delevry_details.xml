@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.LolaCupCakeApplication.DelevryDetails">
+
+    <ScrollView
+        android:id="@+id/homeScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ProductsAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/devlry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dlvryTitle"
+                android:textAlignment="center"
+                android:textColor="#E31069"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/AdverticeID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/delevryId"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/devryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/dlvryName"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/dlvryaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/dlvryAddress"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/dlvryDOB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/dlvryDob"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/dlvryEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/dlvryEmail"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/NowWork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/workNow"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/nbNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/mobile"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/pic1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/men" />
+
+            <Button
+                android:id="@+id/btnaddp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/add" />
+
+            <Button
+                android:id="@+id/btnViewp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/view" />
+
+            <Button
+                android:id="@+id/btnUpdatep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/updatenew" />
+
+            <Button
+                android:id="@+id/btnDeletep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/deletenew" />
+
+
+            <Button
+                android:id="@+id/btnFindp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/serachnew" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

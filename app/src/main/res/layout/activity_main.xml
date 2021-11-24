@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="#068EFA"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"/>
+
+//header images....
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="229dp">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/lblpimagehead"
+                            android:layout_width="412dp"
+                            android:layout_height="203dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cupcake17">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/lblpimagehead1"
+                            android:layout_width="412dp"
+                            android:layout_height="203dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cupcake18">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/lblpimagehead2"
+                            android:layout_width="412dp"
+                            android:layout_height="203dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cupcake19">
+
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/lblpimagehead3"
+                            android:layout_width="412dp"
+                            android:layout_height="203dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/cupcake20">
+
+                        </ImageView>
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </ScrollView>
+
+        </RelativeLayout>
+
+        <TextView
+
+        android:id="@+id/login_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Categories"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="20dp"
+        android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"/>
+//category images.............
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="149dp">
+
+            <ScrollView
+                android:id="@+id/categoryScroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+                    android:id="@+id/Scrollcate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage1"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimage"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake15"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitle1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="BirthDay"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage2"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimage2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake1"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitle2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Anniversary"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage3"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake2"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="New Baby"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage4"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake3"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitl4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="ValentineDay"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage5"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake4"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitl5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Graduation"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage6"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake5"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitl6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Party Time"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage7"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake6"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitl7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Special"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage8"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake7"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitl8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Chocolate"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage9"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake8"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitl9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Vanilla"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage10"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake9"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitle10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Choc+Vanilla"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage11"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag11"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake10"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitle11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Red Velvet"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage12"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag12"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake11"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitle12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Carrot Cake"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage13"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag13"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake12"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitle13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Peanut Butter"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage14"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag14"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake13"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitle14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Lemon"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage15"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag15"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake14"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitle15"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Coffee"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/lblpimage16"
+                            android:layout_width="120dp"
+                            android:layout_height="130dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            app:cardCornerRadius="60dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:id="@+id/lblimag16"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cupcake15"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/imageTitle16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="90dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:text="Wedding"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </ScrollView>
+
+        </RelativeLayout>
+<!--    <TextView-->
+<!--        android:id="@+id/login_title3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/titlett"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/red"-->
+<!--        android:textSize="12sp"-->
+<!--        android:textStyle="bold" />-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/login_title4"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/titlett"-->
+<!--                        android:textAlignment="center"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:textColor="@color/red"-->
+<!--                        android:textSize="12sp"-->
+<!--                        android:textStyle="bold" />-->
+                </LinearLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+    </RelativeLayout>
+
+        <TextView
+
+            android:id="@+id/login_title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Week Popular CupCakes"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"/>
+        <ListView
+            android:id="@+id/productPopular"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/login_title4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Special Offers"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-light"/>
+    <ListView
+        android:id="@+id/productSpecial"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</ScrollView>
+</LinearLayout>

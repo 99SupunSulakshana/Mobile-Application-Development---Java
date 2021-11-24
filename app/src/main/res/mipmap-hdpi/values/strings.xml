@@ -1,0 +1,133 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Cup_cake_mobile</string>
+    <string name="home">Home</string>
+    <string name="username">User Name</string>
+    <string name="password_system">Password</string>
+    <string name="login_one">Login</string>
+    <string name="registration">Registration</string>
+    <string name="profilemanagement">Profile Management</string>
+    <string name="add">Add</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="data_of_birth">Date Of Birth</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="gender">Gender</string>
+    <string name="user_name">User Name</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="login_ho">Login</string>
+    <string name="register">Register</string>
+    <string name="pass_word">PassWord</string>
+    <string name="login_Home">Login</string>
+    <string name="login_system">Login</string>
+    <string name="register_system">Register</string>
+    <string name="login">Login</string>
+    <string name="login_home">LOGIN</string>
+    <string name="title">LOLA CUP CAKE ONLINE SHOP</string>
+    <string name="user_details">All Users Details</string>
+    <string name="userInfo">UNSER NAME</string>
+    <string name="users">USER\'S NAME</string>
+    <string name="viewdata">View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="admin_login">ADMIN</string>
+    <string name="user_login">USER</string>
+    <string name="system_login_selection">SYSTEM LOGIN SELECTION</string>
+    <string name="hotline">HOT LINE +94711327519,+94112345566</string>
+    <string name="products_details">PRODUCTS DETAILS</string>
+    <string name="productname">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_des">Product Description</string>
+    <string name="update_product">UPDATE PRODUCT</string>
+    <string name="product_id">Product ID</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_decs">Description</string>
+    <string name="view">View</string>
+    <string name="select_img">SELECT IMAGE</string>
+    <string name="product">Product</string>
+    <string name="productTitle">PRODUCTS</string>
+    <string name="p_category">Product Category</string>
+    <string name="todo1">TODO</string>
+    <string name="actions">Example: Please, Check my Order</string>
+    <string name="company">Company Reaction</string>
+    <string name="titlett"><![CDATA[<- OUR CATEGORIES ->]]></string>
+    <string name="categories">Categories</string>
+    <string name="getItem">Get item</string>
+    <string name="allcategories">All Categories</string>
+    <string name="birthday">BirthDay</string>
+    <string name="anniversary">Anniversary</string>
+    <string name="new_baby">New Baby</string>
+    <string name="valentineday">ValentineDay</string>
+    <string name="graduation">Graduation</string>
+    <string name="special">Special</string>
+    <string name="vanilla">Vanilla</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="party_time">Party Time</string>
+    <string name="choc_vanilla">Choc+Vanilla</string>
+    <string name="red_velvet">Red Velvet</string>
+    <string name="carrot_cake">Carrot Cake</string>
+    <string name="peanut_butter">Peanut Butter</string>
+    <string name="lemon">Lemon</string>
+    <string name="coffee">Coffee</string>
+    <string name="wedding">Wedding</string>
+    <string name="week_popular_cupcakes">Week Popular CupCakes</string>
+    <string name="special_offers">Special Offers</string>
+    <string name="admin">Admin Panel</string>
+    <string name="products">Product Details Handling</string>
+    <string name="user">Users Details Handling</string>
+    <string name="orders">Orders Details Handling</string>
+    <string name="delivry">Delivery Details Handling</string>
+    <string name="insert">Insert Operation</string>
+    <string name="view1">View Operation</string>
+    <string name="update">Update Operations</string>
+    <string name="delete1">Delete Operations</string>
+    <string name="search1">Search Operation</string>
+    <string name="popular">Popular Products</string>
+    <string name="special1">Special Products</string>
+    <string name="viewall">View All</string>
+    <string name="productss">Products</string>
+    <string name="back">BACK</string>
+    <string name="_0">0</string>
+    <string name="min1">-</string>
+    <string name="plus1">+</string>
+    <string name="todo">TODO</string>
+    <string name="min">-</string>
+    <string name="qty">0</string>
+    <string name="plus">+</string>
+    <string name="advertisements_area">Advertisements Area</string>
+    <string name="all_categories">ALL CATEGORIES</string>
+    <string name="this_week_popular_cupcakes">THIS WEEK POPULAR CUPCAKES</string>
+    <string name="special_offers1">SPECIAL OFFERS</string>
+    <string name="advertisements">ADVERTISEMENTS</string>
+
+    <string-array name="categories">
+        <item>Birthday</item>
+        <item>Anniversary</item>
+        <item>NewBaby</item>
+        <item>ValentineDay</item>
+        <item>Graduation</item>
+        <item>Party Time</item>
+        <item>Special</item>
+        <item>Chocolate</item>
+        <item>Vanilla</item>
+        <item>Chocolate Mixed Vanilla</item>
+        <item>Red Velvet</item>
+        <item>Carrot Cake</item>
+        <item>Peanut Butter</item>
+        <item>Lemon</item>
+        <item>Coffee</item>
+        <item>Wedding</item>
+        <item>Butter</item>
+    </string-array>
+
+    <string-array name="actions">
+        <item>Please,Check My Order</item>
+    </string-array>
+
+    <string name="main_page_selected">%s page is selected</string>
+
+</resources>

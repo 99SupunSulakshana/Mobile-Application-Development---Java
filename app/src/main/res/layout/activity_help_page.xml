@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.LolaCupCakeApplication.HelpPage">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getBack"
+        android:text="@string/back"
+        android:textAlignment="textStart"
+        android:textColor="#E31069"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+    <ScrollView
+        android:id="@+id/homeScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ProductsAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/devlry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutand"
+                android:textAlignment="center"
+                android:textColor="#E31069"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/pic1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/men" />
+
+            <TextView
+                android:id="@+id/CEO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textCeo"
+                android:textAlignment="center"
+                android:textColor="#E31069"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/companyDESC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/companydec"
+                android:textAlignment="center"
+                android:textColor="#E31069"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/companyHotline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mynb"
+                android:textAlignment="center"
+                android:textColor="#E31069"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btncall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/cll" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/emil"
+                android:textAlignment="center"
+                android:textColor="#E31069"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btngamil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_button"
+                android:text="@string/sendE" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
